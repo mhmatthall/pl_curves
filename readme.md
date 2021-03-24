@@ -6,6 +6,8 @@ Code coverage:
 
 # Introduction
 
+Note: This repository is intended for teaching purposes. It contains deliberately introduced errors, do not use it for any real world use. Use the upstream repository https://github.com/colinsauze/pl_curves instead.
+
 This program calculates Pareto–Lorenz (PL) curves for calculating the relative abundance of different bacteria in a community. It also calculates a Gini coefficient to show how evenly distributed the different bacteria are. There are tests written for most functions. Your task is to:
 
 1. Fork this repository
