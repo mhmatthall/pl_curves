@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-from pl_curve import calculate_cumulative_relative_abundance
-from pl_curve import remove_cumulative_abundance_over_one
-from pl_curve import calculate_cumulative_prop_trf
+import sys
+sys.path.append('..')
+
+from pl_curves.pl import calculate_cumulative_relative_abundance
+from pl_curves.pl import remove_cumulative_abundance_over_one
+from pl_curves.pl import calculate_cumulative_prop_trf
 import pandas
 import numpy as np
 

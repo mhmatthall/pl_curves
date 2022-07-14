@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+import sys
+sys.path.append('..')
 
-from pl_curve import sort_bins
+from pl_curves.pl import sort_bins
 import pandas
 import numpy as np
 

@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-from pl_curve import check_columns
+import sys
+sys.path.append('..')
+
+from pl_curves.pl import check_columns
 import pandas
 
 

@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
+import sys
+sys.path.append('..')
+
 import pandas
 import numpy as np
-from pl_curve import calculate_cumulative_relative_abundance
-from pl_curve import remove_cumulative_abundance_over_one
+from pl_curves.pl import calculate_cumulative_relative_abundance
+from pl_curves.pl import remove_cumulative_abundance_over_one
 
 
 def setup_data():

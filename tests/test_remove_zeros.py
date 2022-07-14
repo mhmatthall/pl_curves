@@ -5,7 +5,10 @@ Created on Tue Mar 26 16:08:01 2019
 
 @author: colin
 """
-from pl_curve import remove_zeros
+import sys
+sys.path.append('..')
+
+from pl_curves.pl import remove_zeros
 import pandas
 
 

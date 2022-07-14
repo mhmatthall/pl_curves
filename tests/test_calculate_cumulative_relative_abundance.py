@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-from pl_curve import calculate_cumulative_relative_abundance
+import sys
+sys.path.append('..')
+
+from pl_curves.pl import calculate_cumulative_relative_abundance
 import pandas
 import numpy as np
 

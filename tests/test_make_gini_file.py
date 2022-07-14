@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-from pl_curve import make_gini_file
+import sys
+sys.path.append('..')
+
+from pl_curves.pl import make_gini_file
 import pandas
 import numpy as np
 import os

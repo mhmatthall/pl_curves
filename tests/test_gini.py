@@ -2,7 +2,10 @@
 '''
 unit test for the gini coefficient function
 '''
-from pl_curve import calculate_gini
+import sys
+sys.path.append('..')
+
+from pl_curves.pl import calculate_gini
 import pandas as pd
 import math
 

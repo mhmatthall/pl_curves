@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-from pl_curve import run
+import sys
+sys.path.append('..')
+
+from pl_curves.pl import run
 import pandas
 import os
 
