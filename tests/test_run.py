@@ -38,4 +38,4 @@ def test_run():
     assert data.loc['Step I', 'Gini'] == 0.0
     assert data.loc['Step I', 'Corrected Gini'] == 0.0
     assert data.loc['Step II', 'Gini'] == pytest.approx(0.2, 1e-6)
-    assert data.loc['Step II', 'Corrected Gini'] == 0.4
+    assert data.loc['Step II', 'Corrected Gini'] == pytest.approx(0.4, 1e-6)
