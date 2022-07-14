@@ -14,7 +14,7 @@ def test_gini_empty():
     '''test calculating a gini coefficient with an empty list
     This will cause some warnings from python
     '''
-    gini = calculate_gini(pd.Series([]))
+    gini = calculate_gini(pd.Series([], dtype='float64'))
     assert math.isnan(gini) is True
 
 
