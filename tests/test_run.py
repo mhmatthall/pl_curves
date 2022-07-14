@@ -5,6 +5,7 @@ sys.path.append('..')
 from pl_curves.pl import run
 import pandas
 import os
+import pytest
 
 
 def test_run():
@@ -36,5 +37,5 @@ def test_run():
     data = pandas.read_csv("test.tsv", delimiter='\t', index_col=0)
     assert data.loc['Step I', 'Gini'] == 0.0
     assert data.loc['Step I', 'Corrected Gini'] == 0.0
-    assert data.loc['Step II', 'Gini'] == 0.2
+    assert data.loc['Step II', 'Gini'] == pytest.approx(0.2, 1e-6)
     assert data.loc['Step II', 'Corrected Gini'] == 0.4
