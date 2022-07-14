@@ -2,7 +2,7 @@ Tests passing:
 [![Python Testing](https://github.com/mhmatthall/pl_curves/actions/workflows/main.yml/badge.svg)](https://github.com/mhmatthall/pl_curves/actions/workflows/main.yml)
 
 Code coverage: 
-[![codecov](https://codecov.io/gh/mhmatthall/pl_curves/branch/master/graph/badge.svg)](https://codecov.io/gh/mhmatthall/pl_curves)
+[![codecov](https://codecov.io/gh/mhmatthall/pl_curves/branch/master/graph/badge.svg?token=6UZ4M59BWJ)](https://codecov.io/gh/mhmatthall/pl_curves)
 
 # Introduction
 
