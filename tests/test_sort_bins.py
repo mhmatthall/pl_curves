@@ -26,5 +26,5 @@ def test_sort_bins():
     for col in result:
         max_value = col.max()[0]
         for i in col.values:
-            assert float(i[0]) <= max_value
+            assert float(i[0]) <= float(max_value)
             max_value = float(i[0])
