@@ -1,6 +1,6 @@
-pandas<=0.25
-matplotlib<=3.1.0
-pytest==5.0.1
+pandas
+matplotlib
+pytest
 codecov
 pytest-cov
 flake8
