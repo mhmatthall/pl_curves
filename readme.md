@@ -1,8 +1,8 @@
 Tests passing:
-[![Python Testing](https://github.com/CDT-AIMLAC/pl_curves/actions/workflows/main.yml/badge.svg)](https://github.com/CDT-AIMLAC/pl_curves/actions/workflows/main.yml)
+[![Python Testing](https://github.com/mhmatthall/pl_curves/actions/workflows/main.yml/badge.svg)](https://github.com/mhmatthall/pl_curves/actions/workflows/main.yml)
 
 Code coverage: 
-[![codecov](https://codecov.io/gh/CDT-AIMLAC/pl_curves/branch/master/graph/badge.svg)](https://codecov.io/gh/CDT-AIMLAC/pl_curves)
+[![codecov](https://codecov.io/gh/mhmatthall/pl_curves/branch/master/graph/badge.svg)](https://codecov.io/gh/mhmatthall/pl_curves)
 
 # Introduction
 
@@ -10,7 +10,7 @@ Note: This repository is intended for teaching purposes. It contains deliberatel
 
 This program calculates Pareto–Lorenz (PL) curves for calculating the relative abundance of different bacteria in a community. It also calculates a Gini coefficient to show how evenly distributed the different bacteria are. There are tests written for most functions. Your task is to:
 
-1. Fork this repository
+~~1. Fork this repository~~
 2. Fix the badge path and test github actions
     * Edit the URL at the top of this file to be your repository, not CDT-AIMLAC or:
       * Click on the actions tab and choose the "Python testing" workflow.
